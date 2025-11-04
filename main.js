@@ -58,6 +58,9 @@ app.get('/l1/', (request, result) => {
 app.get('/l2/', (request, result) => {
     result.sendFile(`${__dirname}/L2/i.html`);
 })
+app.get('/l3/', (request, result) => {
+    result.sendFile(`${__dirname}/L3/i.html`);
+})
 app.get('/', (request, result) => {
     result.sendFile(`${__dirname}/P1/i.html`);
 })
