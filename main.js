@@ -28,6 +28,30 @@ app.get('/p7/', (request, result) => {
 app.get('/p8/', (request, result) => {
     result.sendFile(`${__dirname}/P8/i.html`);
 })
+app.get('/p10/', (request, result) => {
+    result.sendFile(`${__dirname}/P10/i.html`);
+})
+app.get('/p11/', (request, result) => {
+    result.sendFile(`${__dirname}/P11/i.html`);
+})
+app.get('/p12/', (request, result) => {
+    result.sendFile(`${__dirname}/P12/i.html`);
+})
+app.get('/p13/', (request, result) => {
+    result.sendFile(`${__dirname}/P13/i.html`);
+})
+app.get('/p14/', (request, result) => {
+    result.sendFile(`${__dirname}/P14/i.html`);
+})
+app.get('/p15/', (request, result) => {
+    result.sendFile(`${__dirname}/P15/i.html`);
+})
+app.get('/p16/', (request, result) => {
+    result.sendFile(`${__dirname}/P16/i.html`);
+})
+app.get('/p17/', (request, result) => {
+    result.sendFile(`${__dirname}/P117/i.html`);
+})
 app.get('/l1/', (request, result) => {
     result.sendFile(`${__dirname}/L1/i.html`);
 })
