@@ -49,9 +49,6 @@ app.get('/p15/', (request, result) => {
 app.get('/p16/', (request, result) => {
     result.sendFile(`${__dirname}/P16/i.html`);
 })
-app.get('/p17/', (request, result) => {
-    result.sendFile(`${__dirname}/P117/i.html`);
-})
 app.get('/l1/', (request, result) => {
     result.sendFile(`${__dirname}/L1/i.html`);
 })
